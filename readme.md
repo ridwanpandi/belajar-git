@@ -12,7 +12,8 @@ GIT has 2 repositories which is on local and remote. Use origin to reach access 
 
 #Fetch (get commit history from remote repository to local repository)
 
-`git fetch origin master`
+`git fetch origin 'namebranch'`
+`git fetch origin` -> update all history commits from remote branches
 
 #Merge (merging file from remote repository to local repository)
 
